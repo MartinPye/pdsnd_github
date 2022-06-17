@@ -23,7 +23,7 @@ def get_filters():
 
     city = str(input('Would you like to see data for Chicago, New York City, or Washington? ').lower())
     while(city not in cities):
-        city = str(input('Error - Please enter one of the cities Chicago, New York City, or Washington? ').lower())
+        city = str(input('Error - Please re-enter one of the cities Chicago, New York City, or Washington? ').lower())
 
     # get user input for month (all, january, february, ... , june)
     print(' '*1)
