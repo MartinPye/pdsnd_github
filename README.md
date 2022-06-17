@@ -10,7 +10,11 @@ bikeshare.py
 Using bike usage information from Chicago, New York City and Washington, for the first six months in 2017 the project provides various statistics on this data based on user input.
 
 ### Files used
-Include the files used
+chicago.csv
+new_york_city.csv
+washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+https://knowledge.udacity.com/questions/181095
+https://knowledge.udacity.com/questions/582141
+https://knowledge.udacity.com/questions/26261
