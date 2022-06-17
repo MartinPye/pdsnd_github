@@ -31,7 +31,7 @@ def get_filters():
 
     # get user input for day of week (all, monday, tuesday, ... sunday)
     print(' '*1)
-    day = str(input('Which day of the week would you like to see data for (all, Monday, Tuesday, ... Sunday)? ').lower())
+    day = str(input('Would you like to see data for Monday, Tuesday, ... Sunday or all? ').lower())
 
     print('-'*40)
     return city, month, day
@@ -88,8 +88,8 @@ def time_stats(df):
     print('The most common month is: ',common_month)
 
     # display the most common day of week
-    common_weekday = df['day_of_week'].mode()[0]
-    print('The most common day of the week is: ',common_weekday)
+    common_day_of_week = df['day_of_week'].mode()[0]
+    print('The most common day of the week is: ',common_day_of_week)
 
     # display the most common start hour
     common_hour = df['hour'].mode()[0]
