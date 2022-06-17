@@ -7,7 +7,7 @@
 bikeshare.py
 
 ### Description
-Describe what your project is about and what it does
+Using bike usage information from Chicago, New York City and Washington, for the first six months in 2017 the project provides various statistics on this data based on user input.
 
 ### Files used
 Include the files used
