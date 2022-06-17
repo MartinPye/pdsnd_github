@@ -7,7 +7,7 @@
 bikeshare.py
 
 ### Description
-Using bike usage information from Chicago, New York City and Washington, for the first six months in 2017 the project provides various statistics on this data based on user input.
+Using bike usage information from Chicago, New York City and Washington, for the first six months in 2017 the project provides various statistics on this data based on user input. These statistics include data on stations, trips and users.
 
 ### Files used
 chicago.csv
