@@ -180,7 +180,7 @@ def user_stats(df):
 
     start=0
     while True:
-        raw_data=input('Would you like to see 5 rows of raw data? Yes or No? ').lower()
+        raw_data=input('Would you like to see five rows of raw data? Yes or No? ').lower()
         if raw_data == 'yes':
             print(df[start:start+5])
             start +=5
